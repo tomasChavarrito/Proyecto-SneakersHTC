@@ -1,0 +1,304 @@
+.titulo {
+  color: rgb(141, 3, 3);
+  text-align: center;
+  font-size: 85px;
+  max-height: 80px;
+  font-family: "Grenze Gotisch", cursive;
+  padding-top: 20px;
+}
+
+.logoHTC{
+    width: 20px;
+    height: 10px;
+}
+
+
+body div p {
+  margin: auto;
+  width: 50rem;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-family: "Grenze Gotisch", cursive;
+}
+.textoIMG .textoCentral {
+  width: 50rem;
+  color: white;
+  font-size: 25px;
+  font-family: "Grenze Gotisch", cursive;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-area {
+  display: grid;
+  gap: 15px;
+  height: 400px;
+  width:500px;
+  grid-template-areas: 
+      "header header header"
+      "productos productos publicidad"
+      "productos productos publicidad"
+      "footer footer footer"
+  ;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  margin-left: 120px ;
+}
+
+main,aside{
+  border: 3px solid rgb(141, 3, 3);
+}
+
+.card__img--left{
+  height: 300px;
+  width: 550px;
+
+}
+
+ul {
+  color: rgb(187, 8, 8);
+  content: counter(lista) "-";
+  list-style-type: square;
+  font-size: 20px;
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.nav-padre{
+  margin: 0 20px;
+}
+
+h3 {
+  padding-left: 20px;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.textoIMG {
+  border: rgb(141, 3, 3) 5px solid;
+  overflow: auto;
+  background-color: black;
+  width: 80%;
+  height: 300px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  margin: 40px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+  color: aliceblue;
+  list-style-type: circle;
+}
+
+li {
+  display: inline-flex;
+  width: 20%;
+  position: relative;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: black;
+}
+
+.bordesRedondeados {
+  border-radius: 5px;
+}
+
+.bordesOscuros {
+  border: 5px double black;
+}
+
+.parallax {
+  background-image: url("/assets/FondoGeo.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-attachment: local;
+}
+
+footer {
+  color: rgb(141, 3, 3);
+  font-size: 25px;
+}
+
+.container {
+  width: 70%;
+}
+
+/*------------------------------ SECCIÓN MARCAS Y MODELOS ------------------------------*/
+.containerMM{
+  padding-left: 200px;
+}
+.textoIMG2 {
+  border: rgb(141, 3, 3) 5px solid;
+  overflow: auto;
+  background-color: black;
+  width: 80%;
+  margin-top: 80px;
+  height: 320px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 20px 20px 20px 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloPP{
+  color: rgb(192, 4, 4);
+  text-align: center;
+  font-size: 80px;
+  max-height: 80px;
+  font-family: "Grenze Gotisch", cursive;
+  padding-top: 10px;
+}
+
+.Card{
+  display: block;
+  font-size: 60px;
+}
+
+.textoCentral3{
+  color: rgb(192, 4, 4);
+}
+
+.tamañoBoton2{
+  width: 120px;
+  height: 45px;
+  font-size: 30px;
+  background-color: rgb(192, 4, 4);
+}
+
+.bordesColoreados{
+  border: rgb(192, 4, 4);
+}
+
+
+/* --------------------------- SECCIÓN FORMULARIO PERSONAL -------------------------------*/
+.Card2{
+  display: block;
+  font-size: 30px;
+}
+
+.textoIMG3 {
+  border: rgb(192, 4, 4) 5px solid;
+  overflow: auto;
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  height: 600px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 40px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+button[type="reset"]{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.textoCentral2{
+  font-size: 45px;
+  color: rgb(192, 4, 4);
+}
+
+.tipografiaLabel{
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.tamañoBoton{
+  width: 120px;
+  height: 45px;
+  font-size: 30px;
+  background-color: rgb(192, 4, 4);
+}
+
+/*--------------------------- SECCIÓN DE CONTACTO ------------------------------*/
+
+.textoIMG4 {
+  border: rgb(192, 4, 4) 5px solid;
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  height: 120px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/*---------------------------- SECCIÓN DE TABLA DE TALLES------------------------*/
+
+.tabla{
+  margin: 30px auto;
+}
+
+.textoIMG5 {
+  border: rgb(192, 4, 4) 5px solid;
+  background-color: black;
+  width: 80%;
+  margin: 40px auto;
+  height: 620px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 20px 20px 20px 20px ;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloTT{
+  color: rgb(192, 4, 4);
+  font-size: 30px;
+}
+
+.letraTT{
+  font-size: 25px;
+}
+
+.subtituloTT{
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 40px;
+  color: rgb(192, 4, 4);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
