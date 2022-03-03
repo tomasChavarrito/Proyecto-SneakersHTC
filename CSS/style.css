@@ -65,9 +65,7 @@ ul {
   font-family: "Grenze Gotisch", cursive;
 }
 
-.nav-padre{
-  margin: 0 20px;
-}
+
 
 h3 {
   padding-left: 20px;
@@ -82,10 +80,10 @@ h3 {
   overflow: auto;
   background-color: black;
   width: 80%;
-  height: 300px;
+  height: 400px;
   line-height: 1.6;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   padding: 15px 15px 15px 15px;
   margin: 40px auto;
@@ -93,6 +91,17 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
+.card-title{
+  font-size: 60px;
+  color: rgb(192, 4, 4);
+}
+.cardMb-3{
+  text-align: center;
+  font-family: "Grenze Gotisch", cursive;
+  width: 100%;
+}
+
 
 ul {
   list-style: none;
@@ -105,9 +114,9 @@ li {
   display: inline-flex;
   width: 20%;
   position: relative;
-  font-size: 30px;
+  font-size: 80px;
   text-decoration: none;
-  background-color: black;
+  padding-left: 100px;
 }
 
 .bordesRedondeados {
@@ -157,17 +166,7 @@ footer {
   object-fit: cover;
 }
 
-.box .hover {
-  width: 0%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.466);
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+
 
 .hover h3{
   color: rgb(192, 3, 3);
@@ -190,7 +189,7 @@ footer {
   background-color: black;
   width: 80%;
   margin-top: 80px;
-  height: 320px;
+  height: 400px;
   line-height: 1.6;
   text-align: center;
   font-size: 60px;
@@ -237,19 +236,24 @@ footer {
   font-size: 30px;
 }
 
+.mb-3{
+  width: 94%;
+  text-align: center;
+  font-family:  "Grenze Gotisch", cursive ;
+}
+
 .textoIMG3 {
   border: rgb(192, 4, 4) 5px solid;
   overflow: auto;
   background-color: black;
   width: 80%;
   margin: auto;
-  height: 600px;
+  height: 700px;
   line-height: 1.6;
   text-align: center;
   font-size: 60px;
   color: white;
-  padding: 20px 20px 20px 20px;
-  margin: 40px auto;
+  padding: 50px 50px 50px 50px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -299,6 +303,7 @@ button[type="reset"]{
 
 .tabla{
   margin: 30px auto;
+  font-size: 20px;
 }
 
 .textoIMG5 {
